@@ -5,7 +5,6 @@ import {
   PortalToElement,
   FlatForm,
 } from '@threekit-tools/treble';
-import TestButton from './components/testButton/TestButton';
 
 const App = () => {
   return (
@@ -19,7 +18,6 @@ const App = () => {
       </div>
       <PortalToElement to="tk-treble-form" strict={true}>
         <FlatForm exteriorColor="exteriorColor" />
-        <TestButton />
       </PortalToElement>
     </ThreekitProvider>
   );
